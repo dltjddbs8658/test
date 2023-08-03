@@ -6,7 +6,9 @@
 */
 
 @media (min-width: 1281px) {
-
+  .contentTitle {
+    padding-top: 30px !important;
+  }
 }
 
 /*
@@ -42,12 +44,12 @@
     width: 90%;
   }
 
-  .searchBar {
-    width: 90% ;
+  .searchBarWrap {
+    width: 100% ;
   }
 
   .contentTitle {
-    padding-top: 50px !important;
+    padding-top: 30px !important;
   }
 }
 @media (min-width: 280px) and (max-width: 480px) {
@@ -55,12 +57,12 @@
     width: 90%;
   }
 
-  .searchBar {
-    width: 90%;
+  .searchBarWrap {
+    width: 100%;
   }
 
   .contentTitle {
-    padding-top: 50px !important;
+    padding-top: 30px !important;
   }
 }
 
