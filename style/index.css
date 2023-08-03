@@ -49,7 +49,9 @@ a {
   padding-left: 20px;
 }
 
-.nav li {
+.active > a {
+  /* color: rgb(171, 95, 182); */
+  color: yellow;
 }
 .nav li a {
   font-size: 18px;
