@@ -73,7 +73,7 @@
   } */
 }
 @media (min-width: 280px) and (max-width: 480px) {
-  .slide {
+  /* .slide {
     width: 89% !important;
     text-align: center;
   }
@@ -81,7 +81,7 @@
     width: 96%;
     margin: 0 auto;
     border-radius: 6px;
-  }
+  } */
   /* .nav {
     flex-direction: column;
     margin-left: 20px;
