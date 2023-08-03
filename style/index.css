@@ -183,7 +183,7 @@ li, a {
 }
 .slideComponent {
   position: relative;
-  padding-top: 20px;
+  margin-top: 20px;
   padding-left: 20px;
 }
 .slide {
@@ -234,7 +234,15 @@ li, a {
   align-items: center;
   cursor: pointer;
   color: #b9b4b4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.slideBtn > img {
+  width: 20px;
+}
+
 .slideBtn:hover {
   color: white;
 }
