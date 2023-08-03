@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiosk</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/media.css" />
+    <link rel="stylesheet" href="./style/swiper.css" />
+  </head>
+
+  <body>
+    <div class="appContainer">
+      <div class="header">
+        <img src="./img//logo.svg" alt="logo" class="logo" />
+        <!-- <input type="text" class="searchBar" /> -->
+      </div>
+      <ul class="nav">
+        <li><a href="#">Mediums</a></li>
+        <li><a href="#">Artists</a></li>
+        <li><a href="#">Photography</a></li>
+        <li><a href="#">Modifiers</a></li>
+        <li><a href="#">Design</a></li>
+      </ul>
+
+      <div class="contents">
+        <h3 class="contentTitle">카테고리 타이틀</h3>
+        <div class="slideComponent">
+          <swiper-container
+            class="swiper-1 slide-wrap"
+            init="false"
+            pagination="true"
+            controller-control=".swiper-1"
+          >
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+          </swiper-container>
+          <button class="swiperPrevBtn1 prevBtn slideBtn">Prev</button>
+          <button class="swiperNextBtn1 nextBtn slideBtn">Next</button>
+        </div>
+        <div class="slideComponent">
+          <swiper-container
+            class="swiper-2 slide-wrap"
+            init="false"
+            pagination="true"
+            controller-control=".swiper-2"
+          >
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">
+                내용 작성 내용 작성 내용 작성 내용 작성내용 작성
+              </p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성내용 작성내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+            <swiper-slide class="slide">
+              <img class="slideImg" src="./img/example1.jpg" alt="test img" />
+              <p class="desc">내용 작성</p>
+            </swiper-slide>
+          </swiper-container>
+          <button class="swiperPrevBtn2 prevBtn slideBtn">Prev</button>
+          <button class="swiperNextBtn2 nextBtn slideBtn">Next</button>
+        </div>
+      </div>
+
+      <div class="copyInput">
+        <input
+          placeholder="Write your prompt here, then add modiferes..."
+          value=""
+        />
+        <div class="copyButton">Copy</div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./js/swiper.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/slide.js"></script>
+</html>
