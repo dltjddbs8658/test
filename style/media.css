@@ -38,33 +38,19 @@
 ##Screen = 320px에서 479px 사이
 */
 @media (min-width: 481px) and (max-width: 767px) {
-
   .nav {
-    flex-direction: column;
-    margin-left: 20px;
-    padding-top: 0;
-    padding-left: 0;
-  }
-  .nav li {
-    padding-top: 10px;
+    width: 90%;
   }
   .contentTitle {
-    padding-top: 20px !important;
+    padding-top: 50px !important;
   }
 }
 @media (min-width: 280px) and (max-width: 480px) {
- 
   .nav {
-    flex-direction: column;
-    margin-left: 20px;
-    padding-top: 0;
-    padding-left: 0;
-  }
-  .nav li {
-    padding-top: 10px;
+    width: 90%;
   }
   .contentTitle {
-    padding-top: 20px !important;
+    padding-top: 50px !important;
   }
 }
 
