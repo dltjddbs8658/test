@@ -10,9 +10,7 @@ h2,
 h3,
 h4,
 h5,
-ul,
-li,
-a {
+ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -20,8 +18,14 @@ a {
   background: #141414;
   color: #fff;
 }
+
+li, a {
+  list-style: none;
+  text-decoration: none;
+}
 .appContainer {
   overflow: hidden;
+  padding-bottom: 200px;
 }
 /* ---------------------- */
 
@@ -41,29 +45,52 @@ a {
 
 /* header */
 .nav {
-  width: 450px;
-  overflow-y: scroll;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 20px;
+  width: 60%;
+  margin: 0 auto;
 }
-
-.active > a {
-  /* color: rgb(171, 95, 182); */
-  color: yellow;
+.nav li {
+  width: 22%;
+  padding: 7px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(43, 42, 43);
+  border-radius: 20px;
+}
+.nav li.active {
+  background: rgb(144, 48, 171);
 }
 .nav li a {
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
+  color: white;
 }
+
 /* ( 크롬, 사파리, 오페라, 엣지 ) 동작 */
 .nav::-webkit-scrollbar {
   display: none;
 }
 
+.searchBarWrap {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.searchBar {
+  width: 50%;
+  border: none;
+  border-radius: 16px;
+  background: #2a2828;
+  color: white;
+  font-size: 16px;
+  padding: 7px 0;
+  text-indent: 20px;
+  outline: none;
+}
 /* ---------------------- */
 
 /* contents */
