@@ -32,7 +32,7 @@ const swiperParams = {
       slidesPerView: 3.5,
     },
     1280: {
-      slidesPerView: 6.5,
+      slidesPerView: 3.5,
     },
   },
   on: {
