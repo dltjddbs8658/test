@@ -22,7 +22,7 @@ prevBtnEl2.addEventListener("click", () => {
 
 // 화면 size 별 slide 수 설정
 const swiperParams = {
-  slidesPerView: 2.5,
+  slidesPerView: 1.5,
   injectStylesUrls: ["../style/index.css"],
   breakpoints: {
     640: {
