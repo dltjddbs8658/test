@@ -28,7 +28,9 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+  .searchBar {
+    width: 90%;
+  }
 }
 
 /*
@@ -41,6 +43,11 @@
   .nav {
     width: 90%;
   }
+
+  .searchBar {
+    width: 90% ;
+  }
+
   .contentTitle {
     padding-top: 50px !important;
   }
@@ -49,6 +56,11 @@
   .nav {
     width: 90%;
   }
+
+  .searchBar {
+    width: 90%;
+  }
+
   .contentTitle {
     padding-top: 50px !important;
   }
