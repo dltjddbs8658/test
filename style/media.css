@@ -150,11 +150,15 @@
     bottom: 12px;
   }
   .inputImg1 {
-    right: 17%;
+    right: 15%;
   }
   
   .inputImg2 {
     right: 5%;
+  }
+
+  .inputImg3 {
+    right: 25%;
   }
 }
 
