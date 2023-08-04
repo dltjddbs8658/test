@@ -36,7 +36,7 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
- 
+
 }
 
 /*
@@ -46,8 +46,21 @@
 ##Screen = 320px에서 479px 사이
 */
 @media (min-width: 481px) and (max-width: 767px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .header > img {
+    padding-left: 0;
+  }
   .nav {
-    width: 90%;
+    width: 100%;
+  }
+
+  .nav li {
+    width: 20%;
+    margin: 0px 7px;
   }
 
   .searchBarWrap {
@@ -57,18 +70,65 @@
   .contentTitle {
     padding-top: 30px !important;
   }
+
+  .searchBarWrap > img {
+    width: 25px;
+    bottom: 12px;
+  }
+  .inputImg1 {
+    right: 13%;
+  }
+  
+  .inputImg2 {
+    right: 5%;
+  }
 }
 @media (min-width: 280px) and (max-width: 480px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .header > img {
+    padding-left: 0;
+  }
   .nav {
-    width: 90%;
+    width: 100%;
+  }
+
+  .nav li {
+    width: 20%;
+    margin: 0px 7px;
+    padding: 15px 0 15px;
+  }
+  
+  .nav li a {
+    font-size: 14px;
   }
 
   .searchBarWrap {
-    width: 100%;
+    padding-top: 35px;
+    width: 90%;
+  }
+  
+  .searchBar {
+    padding: 12px;
+    font-size: 12px;
   }
 
   .contentTitle {
     padding-top: 30px !important;
+  }
+  .searchBarWrap > img {
+    width: 20px;
+    bottom: 12px;
+  }
+  .inputImg1 {
+    right: 17%;
+  }
+  
+  .inputImg2 {
+    right: 5%;
   }
 }
 
