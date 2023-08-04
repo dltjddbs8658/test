@@ -104,6 +104,12 @@ li, a {
   transition: 0.5s ease-in-out;
   resize: none;
 }
+/*
+ css class 사용의 경우 다음 코드와 하단의 코드를 바꾸어 주시면 되겠습니다.
+  .searchBarActive {
+    height: 100px;
+  }
+*/
 .searchBar:focus {
   height: 100px;
 }
