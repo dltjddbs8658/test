@@ -26,6 +26,17 @@
   .contents {
     padding-top: 100px;
   }
+  .inputImg1 {
+    right: 10%;
+  }
+  
+  .inputImg2 {
+    right: 5%;
+  }
+  
+  .inputImg3 {
+    right: 15%;
+  }
 }
 
 /*
@@ -36,7 +47,17 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
+  .inputImg1 {
+    right: 10%;
+  }
+  
+  .inputImg2 {
+    right: 5%;
+  }
+  
+  .inputImg3 {
+    right: 15%;
+  }
 }
 
 /*
@@ -75,12 +96,17 @@
     width: 25px;
     bottom: 12px;
   }
+
   .inputImg1 {
     right: 13%;
   }
   
   .inputImg2 {
     right: 5%;
+  }
+  
+  .inputImg3 {
+    right: 21%;
   }
 }
 @media (min-width: 280px) and (max-width: 480px) {

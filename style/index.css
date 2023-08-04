@@ -91,26 +91,40 @@ li, a {
   border-radius: 30px;
   font-size: 14px;
   color: #fff;
-  display: inline-block;
   font-family: sans-serif;
   padding: 16px;
   position: relative;
   outline: none;
   width: 90%;
+  max-width: 90%;
+  min-width: 90%;
+  overflow: hidden;
+  height: 20px;
+  line-height: 20px;
+  transition: 0.5s ease-in-out;
+  resize: none;
+}
+.searchBar:focus {
+  height: 100px;
 }
 
 .searchBarWrap > img {
   width: 30px;
   position: absolute;
   bottom: 10px;
+  cursor: pointer;
 }
 
 .inputImg1 {
-  right: 10%;
+  right: 8%;
 }
 
 .inputImg2 {
   right: 5%;
+}
+
+.inputImg3 {
+  right: 11%;
 }
 /* ---------------------- */
 
@@ -193,7 +207,7 @@ li, a {
   top: 0;
   left: 0;
   background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,0.3337710084033614) 0%, rgba(0,0,0,0.2413340336134454) 15%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,0.3337710084033614) 0%, rgba(0,0,0,0.2413340336134454) 15%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
 }
 .desc {
   margin: 0;
