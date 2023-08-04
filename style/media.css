@@ -9,6 +9,14 @@
   .contentTitle {
     padding-top: 12px !important;
   }
+  .detailContents {
+    padding-top: 120px;
+   
+  }
+  
+  .imgBox {
+    width: 24%;
+  }
 }
 
 /*
@@ -39,6 +47,8 @@
   .inputImg3 {
     right: 15%;
   }
+
+ 
 }
 
 /*
@@ -110,6 +120,10 @@
   .inputImg3 {
     right: 21%;
   }
+
+  .detailContents {
+    padding-top: 30px;
+  }
 }
 @media (min-width: 280px) and (max-width: 480px) {
   .header {
@@ -161,6 +175,9 @@
 
   .inputImg3 {
     right: 25%;
+  }
+  .detailContents {
+    padding-top: 30px;
   }
 }
 
