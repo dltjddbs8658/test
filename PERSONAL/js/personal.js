@@ -3,7 +3,6 @@ const headerBlurBox = document.querySelector(".blurBox");
 let scrolling;
 
 window.addEventListener("scroll", () => {
-  console.log(window.innerWidth);
   if (!scrolling) {
     if (window.innerWidth > 767) {
       headerBlurBox.style.display = "block";
