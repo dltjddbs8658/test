@@ -26,6 +26,8 @@
   }
   .personalContainer .contents p {
     padding-top: 13px;
+    display: flex;
+    flex-direction: column;
   }
 
   .personalContainer .imgBox {
@@ -43,6 +45,12 @@
     gap: 26.22px;
   }
 
+  .personalBtns button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .personalContainer .mbti .mbtiBtns_Container .mbti_btns button {
     width: 103.5px;
     height: 83px;
@@ -50,6 +58,9 @@
   .personalContainer .mbti .mbtiBtns_Container .mbti_btns button.active {
     height: 83px;
     width: 103.5px;
+  }
+  .personalContainer .contents .imgBox img {
+    margin-left: 0;
   }
 }
 
@@ -81,10 +92,47 @@
     height: 83px;
     margin-right: 26.22px;
   }
+  .personalContainer .contents .imgBox {
+  }
   .personalContainer .contents .imgBox img {
     padding-top: 42px;
     width: 165.37px;
     height: 196px;
+    margin-left: 20px;
+  }
+  .personalBtns {
+    width: 906.49px;
+    margin: 0 auto;
+    padding-top: 42px;
+  }
+  .personalContainer .mbti {
+    width: 907.49px;
+    margin: 0 auto;
+    padding-top: 120px;
+  }
+  .personalContainer .mbti .info {
+  }
+  .personalContainer .mbti .info {
+    align-items: start;
+  }
+  .personalContainer .mbti .mbtiBtns_Container .mbti_btns {
+    padding-top: 63px;
+  }
+  .personalContainer .mbti .mbtiBtns_Container .mbti_btns button {
+    width: 103.5px;
+  }
+  .personalContainer .next_btn {
+    width: 907.49px;
+    margin: 0 auto;
+    justify-content: end;
+    padding-top: 143px;
+    padding-bottom: 0;
+  }
+  .personalContainer .next_btn button {
+    width: 207.49px;
+    height: 58px;
+    font-size: 15px;
+    font-weight: 700;
   }
 }
 
@@ -120,6 +168,8 @@
   .personalContainer .contents h2 {
   }
   .personalContainer .contents p {
+    display: flex;
+    flex-direction: column;
     padding-top: 13px;
   }
   .personalContainer .blurBox {
@@ -148,6 +198,10 @@
     height: 85px;
     font-size: 14px;
     border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .personalBtns button.active {
     width: 24%;
@@ -181,6 +235,9 @@
   }
   .personalContainer .btns .galleryBtn span {
     margin-right: 5px;
+  }
+  .personalContainer .contents .imgBox img {
+    margin-left: 0;
   }
 }
 
