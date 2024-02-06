@@ -91,7 +91,9 @@
   .personalContainer .contents p {
     padding-top: 13px;
   }
-
+  .personalContainer .blurBox {
+    display: none !important;
+  }
   .personalContainer .imgBox {
     display: flex;
     justify-content: center;

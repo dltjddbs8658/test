@@ -3,8 +3,11 @@ const headerBlurBox = document.querySelector(".blurBox");
 let scrolling;
 
 window.addEventListener("scroll", () => {
+  console.log(window.innerWidth);
   if (!scrolling) {
-    headerBlurBox.style.display = "block";
+    if (window.innerWidth > 767) {
+      headerBlurBox.style.display = "block";
+    }
   }
   clearTimeout(scrolling);
   scrolling = setTimeout(() => {
