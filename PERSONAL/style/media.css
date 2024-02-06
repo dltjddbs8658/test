@@ -56,10 +56,10 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-}
+/* @media (min-width: 481px) and (max-width: 767px) {
+} */
 
-@media (min-width: 280px) and (max-width: 480px) {
+@media (min-width: 280px) and (max-width: 767px) {
   .personalContainer {
     width: 100%;
     overflow: hidden;
@@ -76,7 +76,7 @@
   }
   .personalContainer .contents {
     box-sizing: border-box;
-    padding: 80px 10px 0;
+    padding: 120px 10px 0;
     max-width: 907px;
     margin: 0 auto;
   }
@@ -99,24 +99,24 @@
     gap: 20px;
   }
   .personalContainer .btns button.active {
-    width: 200px;
+    width: 45%;
   }
   .personalContainer .btns button {
-    width: 200px;
-    height: 70px;
+    width: 45%;
+    height: 60px;
   }
   .personalBtns {
     justify-content: space-around;
   }
 
   .personalBtns button {
-    width: 85px;
+    width: 24%;
     height: 85px;
     font-size: 14px;
     border-radius: 50%;
   }
   .personalBtns button.active {
-    width: 90px;
+    width: 24%;
   }
   .personalContainer .mbti {
     width: 100%;
@@ -141,6 +141,12 @@
   }
   .personalContainer .next_btn {
     padding: 70px 0;
+  }
+  .personalContainer .btns .cameraBtn span {
+    margin-right: 5px;
+  }
+  .personalContainer .btns .galleryBtn span {
+    margin-right: 5px;
   }
 }
 
