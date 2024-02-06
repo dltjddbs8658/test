@@ -1,0 +1,167 @@
+@media (min-width: 1025px) {
+  .personalContainer {
+    width: 907px;
+    margin: 0 auto;
+  }
+
+  .personalContainer .header {
+    padding: 26px 65px 0;
+  }
+  .personalContainer .header .logo {
+    width: 313px;
+    height: 23px;
+    cursor: pointer;
+  }
+  .personalContainer .contents {
+    padding-top: 116px;
+    max-width: 907px;
+    margin: 0 auto;
+  }
+
+  .personalContainer .contents h2,
+  p {
+    text-align: center;
+  }
+  .personalContainer .contents h2 {
+  }
+  .personalContainer .contents p {
+    padding-top: 13px;
+  }
+
+  .personalContainer .imgBox {
+    display: flex;
+    justify-content: center;
+  }
+  .personalContainer .btns button.active {
+    width: 207.49px;
+  }
+  .personalContainer .btns button {
+    width: 207.49px;
+    height: 83px;
+  }
+  .personalContainer .btns {
+    gap: 26.22px;
+  }
+
+  .personalContainer .mbti .mbtiBtns_Container .mbti_btns button {
+    width: 103.5px;
+    height: 83px;
+  }
+  .personalContainer .mbti .mbtiBtns_Container .mbti_btns button.active {
+    height: 83px;
+    width: 103.5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .personalContainer {
+    width: 100%;
+    overflow: hidden;
+  }
+  .personalContainer .header {
+    padding: 0;
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .personalContainer .header .logo {
+    width: 300px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .personalContainer .contents {
+    box-sizing: border-box;
+    padding: 80px 10px 0;
+    max-width: 907px;
+    margin: 0 auto;
+  }
+
+  .personalContainer .contents h2,
+  p {
+    text-align: center;
+  }
+  .personalContainer .contents h2 {
+  }
+  .personalContainer .contents p {
+    padding-top: 13px;
+  }
+
+  .personalContainer .imgBox {
+    display: flex;
+    justify-content: center;
+  }
+  .personalContainer .btns {
+    gap: 20px;
+  }
+  .personalContainer .btns button.active {
+    width: 200px;
+  }
+  .personalContainer .btns button {
+    width: 200px;
+    height: 70px;
+  }
+  .personalBtns {
+    justify-content: space-around;
+  }
+
+  .personalBtns button {
+    width: 85px;
+    height: 85px;
+    font-size: 14px;
+    border-radius: 50%;
+  }
+  .personalBtns button.active {
+    width: 90px;
+  }
+  .personalContainer .mbti {
+    width: 100%;
+    padding-top: 60px;
+  }
+  .personalContainer .mbti .mbtiBtns_Container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .personalContainer .mbti .mbtiBtns_Container .mbti_btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .personalContainer .mbti .mbtiBtns_Container .mbti_btns button {
+    width: 45%;
+    height: 60px;
+  }
+  .personalContainer .mbti .mbtiBtns_Container .mbti_btns button.active {
+    height: 60px;
+  }
+  .personalContainer .next_btn {
+    padding: 70px 0;
+  }
+}
+
+/*
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+    ##Device = 데스크탑
+    ##Screen = 1281px 이상 해상도 데스크탑
+
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+    ##Device = 랩탑, 데스크탑
+    ##Screen = 1025px에서 1280px 사이
+
+    ##Device = Tablets, Ipads (landscape),
+    ##Screen = B/w 768px to 1024px
+    ##Device = 태블릿, 아이패드(세로),
+    ##Screen = 768px에서 1024px 사이
+
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+    ##Device = 대부분의 스마트폰 모바일 기기(세로)
+    ##Screen = 320px에서 479px 사이
+*/
