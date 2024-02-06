@@ -1,4 +1,4 @@
-@media (min-width: 1025px) {
+@media (min-width: 1281px) {
   .personalContainer {
     width: 907px;
     margin: 0 auto;
@@ -52,7 +52,8 @@
     width: 103.5px;
   }
 }
-
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
 @media (min-width: 768px) and (max-width: 1024px) {
 }
 
