@@ -63,7 +63,7 @@ body {
   overflow: hidden;
 }
 .personalContainer .contents p span {
-  font-size: 14px;
+  font-size: 13.95px;
   font-weight: normal;
   height: 18px;
   display: inline-block;
@@ -162,7 +162,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 .personalContainer .mbti .info p {
-  font-size: 14px;
+  font-size: 13.95px;
   font-weight: 500;
   color: rgba(128, 128, 128, 1);
 }
