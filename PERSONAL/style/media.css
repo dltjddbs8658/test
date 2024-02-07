@@ -78,7 +78,6 @@
     box-sizing: border-box;
     padding: 191px 0 0;
     max-width: 907px;
-    margin-left: 88px;
   }
   .personalContainer .contents p {
     padding-top: 13px;
@@ -87,6 +86,7 @@
     justify-content: start;
     padding-top: 63px;
     padding-bottom: 0;
+    margin-left: 87px;
   }
   .personalContainer .btns button {
     width: 206.78px;
@@ -99,17 +99,19 @@
     padding-top: 42px;
     width: 165.37px;
     height: 196px;
-    margin-left: 22px;
+    margin-left: 108px;
   }
   .personalBtns {
     width: 906.49px;
     margin: 0 auto;
     padding-top: 42px;
+    margin-left: 87px;
   }
   .personalContainer .mbti {
     width: 907.49px;
     margin: 0 auto;
     padding-top: 120px;
+    margin-left: 87px;
   }
   .personalContainer .mbti .info {
   }
@@ -124,7 +126,7 @@
   }
   .personalContainer .next_btn {
     width: 907.49px;
-    margin: 0 auto;
+    margin-left: 87px;
     justify-content: end;
     padding-top: 143px;
     padding-bottom: 0;
@@ -137,6 +139,12 @@
   }
   .personalContainer .mbti .info p {
     padding-top: 13px;
+  }
+  .personalContainer .contents > h2 {
+    margin-left: 86px;
+  }
+  .personalContainer .contents > p {
+    margin-left: 86px;
   }
 }
 
