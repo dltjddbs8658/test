@@ -223,6 +223,71 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 24px;
+  }
+  .personalContainer .mbti .mbtiBtns_Container .mbti_btns button:nth-child(1) {
+    width: 43%;
+  }
+  .personalContainer .mbti .mbtiBtns_Container .mbti_btns button:nth-child(2) {
+    width: 43%;
+  }
+  .personalContainer
+    .mbti
+    .mbtiBtns_Container
+    .mbti_btns.btns1
+    button:nth-child(1) {
+    padding: 20px 30.5px 29px 60px;
+  }
+  .personalContainer
+    .mbti
+    .mbtiBtns_Container
+    .mbti_btns.btns1
+    button:nth-child(2) {
+    padding: 20px 59px 29px 38.5px;
+  }
+
+  .personalContainer
+    .mbti
+    .mbtiBtns_Container
+    .mbti_btns.btns2
+    button:nth-child(1) {
+    padding: 20px 29.5px 29px 59px;
+  }
+  .personalContainer
+    .mbti
+    .mbtiBtns_Container
+    .mbti_btns.btns2
+    button:nth-child(2) {
+    padding: 20px 53px 29px 36.5px;
+  }
+  .personalContainer
+    .mbti
+    .mbtiBtns_Container
+    .mbti_btns.btns3
+    button:nth-child(1) {
+    padding: 20px 31.5px 29px 60px;
+  }
+  .personalContainer
+    .mbti
+    .mbtiBtns_Container
+    .mbti_btns.btns3
+    button:nth-child(2) {
+    padding: 20px 53px 29px 36.5px;
+  }
+
+  .personalContainer
+    .mbti
+    .mbtiBtns_Container
+    .mbti_btns.btns4
+    button:nth-child(1) {
+    padding: 20px 30.5px 29px 60px;
+  }
+  .personalContainer
+    .mbti
+    .mbtiBtns_Container
+    .mbti_btns.btns4
+    button:nth-child(2) {
+    padding: 20px 55px 29px 36.5px;
   }
   .personalContainer .mbti .mbtiBtns_Container .mbti_btns button {
     width: 45%;
