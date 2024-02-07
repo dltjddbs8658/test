@@ -78,7 +78,7 @@
     box-sizing: border-box;
     padding: 191px 0 0;
     max-width: 907px;
-    margin: 0 auto;
+    margin-left: 88px;
   }
   .personalContainer .contents p {
     padding-top: 13px;
@@ -99,7 +99,7 @@
     padding-top: 42px;
     width: 165.37px;
     height: 196px;
-    margin-left: 20px;
+    margin-left: 22px;
   }
   .personalBtns {
     width: 906.49px;
