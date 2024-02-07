@@ -59,6 +59,8 @@ body {
   color: rgba(128, 128, 128, 1);
   font-weight: 500;
   font-size: 15px;
+  height: 18px;
+  overflow: hidden;
 }
 .personalContainer .contents .imgBox img {
   width: 202.49px;
@@ -140,7 +142,7 @@ body {
 }
 
 .personalContainer .mbti {
-  padding-top: 87.83px;
+  padding-top: 82px;
 }
 .personalContainer .mbti .info {
   display: flex;
@@ -156,17 +158,16 @@ body {
 .personalContainer .mbti .info p {
   font-size: 15px;
   font-weight: 500;
-  line-height: 18px;
-  letter-spacing: 0em;
   color: rgba(128, 128, 128, 1);
 }
 .personalContainer .mbti .mbtiBtns_Container {
   display: flex;
   justify-content: space-between;
+  padding-top: 42px;
 }
 .personalContainer .mbti .mbtiBtns_Container .mbti_btns {
   display: flex;
-  padding-top: 42px;
+
   width: 207px;
 }
 .personalContainer .mbti .mbtiBtns_Container .mbti_btns button {
@@ -185,13 +186,71 @@ body {
 .personalContainer .mbti .mbtiBtns_Container .mbti_btns button:nth-child(1) {
   border-radius: 50px 0 0 50px;
   box-sizing: border-box;
-  padding-left: 32.61px;
+  width: 103.5px;
 }
 .personalContainer .mbti .mbtiBtns_Container .mbti_btns button:nth-child(2) {
   border-radius: 0 50px 50px 0;
-  padding-right: 32.61px;
+  box-sizing: border-box;
+  width: 103.5px;
+}
+.personalContainer
+  .mbti
+  .mbtiBtns_Container
+  .mbti_btns.btns1
+  button:nth-child(1) {
+  padding: 30px 30.5px 29px 60px;
+}
+.personalContainer
+  .mbti
+  .mbtiBtns_Container
+  .mbti_btns.btns1
+  button:nth-child(2) {
+  padding: 30px 59px 29px 38.5px;
 }
 
+.personalContainer
+  .mbti
+  .mbtiBtns_Container
+  .mbti_btns.btns2
+  button:nth-child(1) {
+  padding: 30px 29.5px 29px 59px;
+}
+.personalContainer
+  .mbti
+  .mbtiBtns_Container
+  .mbti_btns.btns2
+  button:nth-child(2) {
+  padding: 30px 53px 29px 36.5px;
+}
+.personalContainer
+  .mbti
+  .mbtiBtns_Container
+  .mbti_btns.btns3
+  button:nth-child(1) {
+  padding: 30px 31.5px 29px 60px;
+}
+.personalContainer
+  .mbti
+  .mbtiBtns_Container
+  .mbti_btns.btns3
+  button:nth-child(2) {
+  padding: 30px 53px 29px 36.5px;
+}
+
+.personalContainer
+  .mbti
+  .mbtiBtns_Container
+  .mbti_btns.btns4
+  button:nth-child(1) {
+  padding: 30px 30.5px 29px 60px;
+}
+.personalContainer
+  .mbti
+  .mbtiBtns_Container
+  .mbti_btns.btns4
+  button:nth-child(2) {
+  padding: 30px 55px 29px 36.5px;
+}
 .personalContainer .next_btn {
   display: flex;
   justify-content: center;
