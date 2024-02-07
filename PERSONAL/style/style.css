@@ -159,7 +159,6 @@ body {
   line-height: 18px;
   letter-spacing: 0em;
   color: rgba(128, 128, 128, 1);
-  padding-top: 13px;
 }
 .personalContainer .mbti .mbtiBtns_Container {
   display: flex;
@@ -185,9 +184,12 @@ body {
 }
 .personalContainer .mbti .mbtiBtns_Container .mbti_btns button:nth-child(1) {
   border-radius: 50px 0 0 50px;
+  box-sizing: border-box;
+  padding-left: 32.61px;
 }
 .personalContainer .mbti .mbtiBtns_Container .mbti_btns button:nth-child(2) {
   border-radius: 0 50px 50px 0;
+  padding-right: 32.61px;
 }
 
 .personalContainer .next_btn {
